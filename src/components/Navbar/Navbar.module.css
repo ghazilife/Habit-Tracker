@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 4rem;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6b6b93,
+    #5e5a8b,
+    #3b3380
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6b6b93,
+    #5e5a8b,
+    #3b3380
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-bottom: 3rem;
+  opacity: 0.75;
+}
+
+.nav h1 {
+  font-family: Comfortaa, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navigationLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+
+.btn {
+  background-color: rgb(200, 228, 255);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-radius: 0.3em;
+  transition: var(--transition-delay);
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  opacity: 0.7;
+  cursor: pointer;
+}

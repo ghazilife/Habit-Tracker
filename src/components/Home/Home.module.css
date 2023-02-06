@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.nohabitheading {
+  width: 60%;
+  height: 20vh;
+  margin: 1rem auto;
+  padding: 3rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(159, 188, 228);
+  text-align: center;
+}

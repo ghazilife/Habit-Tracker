@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&family=Mukta&family=Courgette&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --accent-color: rgb(110, 111, 151);
+  --accent-variant: rgb(95, 97, 154);
+  --secondary-color: rgb(132, 120, 165);
+  --secondary-variant: #86d8a1;
+  --transition-delay: 1s;
+  transition: var(--transition-delay);
+
+  --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.3);
+
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+ 
+}
